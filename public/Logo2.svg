@@ -1,0 +1,28 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#0D1B2E"/>
+
+  <defs>
+    <linearGradient id="metal_gradient" x1="165" y1="155" x2="325" y2="255" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E0E0E0"/>
+      <stop offset="50%" stop-color="#999999"/>
+      <stop offset="100%" stop-color="#BDBDBD"/>
+    </linearGradient>
+    
+    <linearGradient id="swoosh_gradient" x1="130" y1="230" x2="480" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2B4C9B"/>
+      <stop offset="50%" stop-color="#5B9BD5"/>
+      <stop offset="100%" stop-color="#8ECAFF" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(-102, -35)">
+    <g id="envelope">
+      <path d="M165 155H325V255H165V155Z" fill="url(#metal_gradient)" stroke="#777" stroke-width="1"/>
+      <path d="M165 155L245 215L325 155" fill="none" stroke="#666" stroke-width="2"/>
+      <path d="M165 255L225 210" stroke="#666" stroke-width="1.5"/>
+      <path d="M325 255L265 210" stroke="#666" stroke-width="1.5"/>
+    </g>
+
+    <path d="M130 260C130 260 160 210 240 230C320 250 480 210 480 210L475 215C475 215 320 255 240 235C160 215 140 280 130 260Z" fill="url(#swoosh_gradient)" />
+  </g>
+</svg>
