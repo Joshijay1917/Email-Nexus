@@ -201,6 +201,26 @@ export default function Home() {
 
   return (
     <div className="relative min-h-screen bg-[#030712] overflow-hidden flex flex-col justify-between">
+      {/* Google Structured Data JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Email Nexus",
+            "operatingSystem": "All",
+            "applicationCategory": "CommunicationApplication",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "description": "Find any invoice, save any attachment, and manage your inbox without ever leaving WhatsApp. Privacy-first, AI-powered."
+          })
+        }}
+      />
+
       {/* Dynamic Background Glowing Blobs */}
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-emerald-500/10 rounded-full blur-[100px] glow-pulse pointer-events-none" />
       <div className="absolute bottom-20 right-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-[100px] glow-pulse pointer-events-none" />

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://email-nexus-apex-horizon.vercel.app/sitemap.xml

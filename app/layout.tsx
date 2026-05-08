@@ -13,15 +13,36 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://email-nexus-apex-horizon.vercel.app/"),
   title: "Email Nexus | Your Gmail, now on WhatsApp",
   description:
     "Find any invoice, save any attachment, and manage your inbox without ever leaving WhatsApp. Privacy-first, AI-powered.",
   keywords: ["Gmail on WhatsApp", "Email on WhatsApp", "AI email assistant", "Invoice search WhatsApp", "Save attachments WhatsApp", "SaaS", "Inbox manager"],
   authors: [{ name: "Email Nexus Team" }],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   openGraph: {
     title: "Email Nexus | Your Gmail, now on WhatsApp",
     description: "Manage your inbox, find invoices, and save attachments from WhatsApp. Privacy-first, AI-powered.",
+    url: "https://email-nexus-apex-horizon.vercel.app/",
+    siteName: "Email Nexus",
+    locale: "en_US",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Email Nexus | Your Gmail, now on WhatsApp",
+    description: "Manage your inbox, find invoices, and save attachments from WhatsApp. Privacy-first, AI-powered.",
+    creator: "@EmailNexus",
   },
 };
 
