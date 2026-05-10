@@ -201,6 +201,9 @@ export default function Home() {
 
   return (
     <div className="relative min-h-screen bg-[#030712] overflow-hidden flex flex-col justify-between">
+      <div className="hidden">
+        Best way to manage mail, Summarize my inbox for mobile, Fastest way to reply to emails on Android/iPhone, How to read emails quickly, Don't see email notification
+      </div>
       {/* Google Structured Data JSON-LD */}
       <script
         type="application/ld+json"
@@ -232,7 +235,7 @@ export default function Home() {
           <div className="flex items-center gap-0">
             {/* Logo */}
             {/* <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-500 flex items-center justify-center shadow-lg shadow-emerald-500/20"> */}
-            <Image src={'/logo.png'} width={50} height={50} alt="Logo" />
+            <Image src={'/logo.png'} width={50} height={50} alt="Apex Horizon - Email Nexus Developer" />
             {/* </div> */}
             <span className="font-bold text-xl tracking-tight bg-gradient-to-r from-white to-zinc-400 bg-clip-text text-transparent">
               Email<span className="text-emerald-500">Nexus</span>
@@ -275,7 +278,7 @@ export default function Home() {
             </h1>
 
             <p className="text-lg md:text-xl text-zinc-400 font-normal leading-relaxed max-w-2xl">
-              Find any invoice, save any attachment, and manage your inbox without ever leaving WhatsApp. Privacy-first, AI-powered.
+              Email Nexus is a flagship product by Apex Horizon, designed to find any invoice, save any attachment, and manage your inbox without ever leaving WhatsApp. Privacy-first, AI-powered.
             </p>
 
             {/* Waitlist submission */}
@@ -468,7 +471,7 @@ export default function Home() {
               A Complete Inbox Powerhouse on WhatsApp
             </h2>
             <p className="text-zinc-400 text-base md:text-lg leading-relaxed">
-              No complex downloads, no secondary apps. Manage, query, and structure your secure Gmail correspondence dynamically with standard WhatsApp texts.
+              Just link your number with gmail. Manage, query, and structure your secure Gmail correspondence dynamically with standard WhatsApp texts.
             </p>
           </div>
 
@@ -623,7 +626,7 @@ export default function Home() {
         {/* SECONDARY CTA / BOTTOM capture */}
         <section className="text-center py-12 border-t border-zinc-900 flex flex-col items-center gap-6">
           <h2 className="text-3xl font-extrabold text-white">Ready to change how you manage email?</h2>
-          <p className="text-zinc-400 text-sm max-w-md">Join the private beta waitlist today. Real validation, real productivity.</p>
+          <p className="text-zinc-400 text-sm max-w-md">Email Nexus by Apex Horizon: The alternative to the clunky Gmail app. If you're looking for how to manage email on the go or how to get email summaries on mobile, join our waitlist.</p>
           <a
             href="#waitlist"
             className="px-6 py-3.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-[#030712] font-extrabold shadow-lg shadow-emerald-500/25 transition-all"

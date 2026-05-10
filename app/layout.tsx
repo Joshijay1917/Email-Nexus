@@ -15,11 +15,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://email-nexus-apex-horizon.vercel.app/"),
-  title: "Email Nexus | Your Gmail, now on WhatsApp",
+  title: "Email Nexus | WhatsApp Gmail Integration by Apex Horizon",
   description:
-    "Find any invoice, save any attachment, and manage your inbox without ever leaving WhatsApp. Privacy-first, AI-powered.",
+    "Email Nexus by Apex Horizon brings your Gmail to WhatsApp. Manage, query, and structure your emails via text. Join the waitlist for the ultimate productivity tool.",
   keywords: ["Gmail on WhatsApp", "Email on WhatsApp", "AI email assistant", "Invoice search WhatsApp", "Save attachments WhatsApp", "SaaS", "Inbox manager"],
-  authors: [{ name: "Email Nexus Team" }],
+  authors: [{ name: "Email Nexus Team" }, { name: "Apex Horizon" }],
   robots: {
     index: true,
     follow: true,
